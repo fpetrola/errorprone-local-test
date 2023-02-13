@@ -1,4 +1,4 @@
-package com.company.testing;
+package com.company.errorprone.tester;
 
 import java.util.Arrays;
 import java.util.Random;

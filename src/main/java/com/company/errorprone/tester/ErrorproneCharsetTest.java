@@ -4,7 +4,7 @@ public class ErrorproneCharsetTest {
     
     public static void main(String[] args) {
 
-        byte[] firstString= "example string".getBytes();
+        byte[] firstString= "example string".getBytes(Charset.defaultCharset());
         String result= new String(firstString);
 
         System.out.println(result);
